@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_JOURNALENTRYITEM'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_JOURNALENTRYITEM'
+  }
+}
+define service ZUI_JOURNALENTRYITEM_O4 provider contracts odata_v4_ui {
+  expose ZC_JOURNALENTRYITEM;
+}

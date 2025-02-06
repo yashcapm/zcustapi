@@ -1,0 +1,276 @@
+@Metadata.layer: #CORE
+@UI.headerInfo.typeName: 'Projection CDS View for ZI_JOURNALENTRYITEM'
+@UI.headerInfo.typeNamePlural: 'Projection CDS View for ZI_JOURNALENTRYITEM'
+@UI.headerInfo.title.type: #STANDARD
+@UI.headerInfo.title.value: 'SourceLedger'
+@UI.headerInfo.description.type: #STANDARD
+@UI.headerInfo.description.value: 'SourceLedger'
+annotate view ZC_JOURNALENTRYITEM with
+{
+  @UI.facet: [ {
+    label: 'General Information', 
+    id: 'GeneralInfo', 
+    purpose: #STANDARD, 
+    position: 10 , 
+    type: #IDENTIFICATION_REFERENCE
+  } ]
+  @UI.identification: [ {
+    position: 10 , 
+    label: 'SourceLedger'
+  } ]
+  @UI.lineItem: [ {
+    position: 10 , 
+    label: 'SourceLedger'
+  } ]
+  @UI.selectionField: [ {
+    position: 10 
+  } ]
+  SourceLedger;
+  
+  @UI.identification: [ {
+    position: 20 , 
+    label: 'CompanyCode'
+  } ]
+  @UI.lineItem: [ {
+    position: 20 , 
+    label: 'CompanyCode'
+  } ]
+  @UI.selectionField: [ {
+    position: 20 
+  } ]
+  CompanyCode;
+  
+  @UI.identification: [ {
+    position: 30 , 
+    label: 'FiscalYear'
+  } ]
+  @UI.lineItem: [ {
+    position: 30 , 
+    label: 'FiscalYear'
+  } ]
+  @UI.selectionField: [ {
+    position: 30 
+  } ]
+  FiscalYear;
+  
+  @UI.identification: [ {
+    position: 40 , 
+    label: 'AccountingDocument'
+  } ]
+  @UI.lineItem: [ {
+    position: 40 , 
+    label: 'AccountingDocument'
+  } ]
+  @UI.selectionField: [ {
+    position: 40 
+  } ]
+  AccountingDocument;
+  
+  @UI.identification: [ {
+    position: 50 , 
+    label: 'LedgerGLLineItem'
+  } ]
+  @UI.lineItem: [ {
+    position: 50 , 
+    label: 'LedgerGLLineItem'
+  } ]
+  @UI.selectionField: [ {
+    position: 50 
+  } ]
+  LedgerGLLineItem;
+  
+  @UI.identification: [ {
+    position: 60 , 
+    label: 'Ledger'
+  } ]
+  @UI.lineItem: [ {
+    position: 60 , 
+    label: 'Ledger'
+  } ]
+  @UI.selectionField: [ {
+    position: 60 
+  } ]
+  Ledger;
+  
+  @UI.identification: [ {
+    position: 70 , 
+    label: 'AmountInBalanceTransacCrcy'
+  } ]
+  @UI.lineItem: [ {
+    position: 70 , 
+    label: 'AmountInBalanceTransacCrcy'
+  } ]
+  @UI.selectionField: [ {
+    position: 70 
+  } ]
+  AmountInBalanceTransacCrcy;
+  
+  @UI.identification: [ {
+    position: 80 , 
+    label: 'AmountInCompanyCodeCurrency'
+  } ]
+  @UI.lineItem: [ {
+    position: 80 , 
+    label: 'AmountInCompanyCodeCurrency'
+  } ]
+  @UI.selectionField: [ {
+    position: 80 
+  } ]
+  AmountInCompanyCodeCurrency;
+  
+  @UI.identification: [ {
+    position: 90 , 
+    label: 'AmountInGlobalCurrency'
+  } ]
+  @UI.lineItem: [ {
+    position: 90 , 
+    label: 'AmountInGlobalCurrency'
+  } ]
+  @UI.selectionField: [ {
+    position: 90 
+  } ]
+  AmountInGlobalCurrency;
+  
+  @UI.identification: [ {
+    position: 100 , 
+    label: 'AmountInFunctionalCurrency'
+  } ]
+  @UI.lineItem: [ {
+    position: 100 , 
+    label: 'AmountInFunctionalCurrency'
+  } ]
+  @UI.selectionField: [ {
+    position: 100 
+  } ]
+  AmountInFunctionalCurrency;
+  
+  @UI.identification: [ {
+    position: 110 , 
+    label: 'AmountInFreeDefinedCurrency1'
+  } ]
+  @UI.lineItem: [ {
+    position: 110 , 
+    label: 'AmountInFreeDefinedCurrency1'
+  } ]
+  @UI.selectionField: [ {
+    position: 110 
+  } ]
+  AmountInFreeDefinedCurrency1;
+  
+  @UI.identification: [ {
+    position: 120 , 
+    label: 'PostingDate'
+  } ]
+  @UI.lineItem: [ {
+    position: 120 , 
+    label: 'PostingDate'
+  } ]
+  @UI.selectionField: [ {
+    position: 120 
+  } ]
+  PostingDate;
+  
+  @UI.identification: [ {
+    position: 130 , 
+    label: 'Customer'
+  } ]
+  @UI.lineItem: [ {
+    position: 130 , 
+    label: 'Customer'
+  } ]
+  @UI.selectionField: [ {
+    position: 130 
+  } ]
+  Customer;
+  
+  @UI.identification: [ {
+    position: 140 , 
+    label: 'Supplier'
+  } ]
+  @UI.lineItem: [ {
+    position: 140 , 
+    label: 'Supplier'
+  } ]
+  @UI.selectionField: [ {
+    position: 140 
+  } ]
+  Supplier;
+  
+  @UI.identification: [ {
+    position: 150 , 
+    label: 'GLAccount'
+  } ]
+  @UI.lineItem: [ {
+    position: 150 , 
+    label: 'GLAccount'
+  } ]
+  @UI.selectionField: [ {
+    position: 150 
+  } ]
+  GLAccount;
+  
+  @UI.identification: [ {
+    position: 160 , 
+    label: 'DocumentDate'
+  } ]
+  @UI.lineItem: [ {
+    position: 160 , 
+    label: 'DocumentDate'
+  } ]
+  @UI.selectionField: [ {
+    position: 160 
+  } ]
+  DocumentDate;
+  
+  @UI.identification: [ {
+    position: 170 , 
+    label: 'ClearingDate'
+  } ]
+  @UI.lineItem: [ {
+    position: 170 , 
+    label: 'ClearingDate'
+  } ]
+  @UI.selectionField: [ {
+    position: 170 
+  } ]
+  ClearingDate;
+  
+  @UI.identification: [ {
+    position: 180 , 
+    label: 'ClearingJournalEntry'
+  } ]
+  @UI.lineItem: [ {
+    position: 180 , 
+    label: 'ClearingJournalEntry'
+  } ]
+  @UI.selectionField: [ {
+    position: 180 
+  } ]
+  ClearingJournalEntry;
+  
+  @UI.identification: [ {
+    position: 190 , 
+    label: 'ClearingJournalEntryFiscalYear'
+  } ]
+  @UI.lineItem: [ {
+    position: 190 , 
+    label: 'ClearingJournalEntryFiscalYear'
+  } ]
+  @UI.selectionField: [ {
+    position: 190 
+  } ]
+  ClearingJournalEntryFiscalYear;
+  
+  @UI.identification: [ {
+    position: 200 , 
+    label: 'NetDueDate'
+  } ]
+  @UI.lineItem: [ {
+    position: 200 , 
+    label: 'NetDueDate'
+  } ]
+  @UI.selectionField: [ {
+    position: 200 
+  } ]
+  NetDueDate;
+}

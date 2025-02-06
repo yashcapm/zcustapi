@@ -1,0 +1,4 @@
+@EndUserText.label: 'TotalAccountsReceivables'
+define service ZSD_JournalEntryItemCube {
+  expose ZI_JournalEntryItemCube;
+}
